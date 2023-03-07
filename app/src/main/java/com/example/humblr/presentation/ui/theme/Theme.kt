@@ -1,4 +1,4 @@
-package com.example.humblr.ui.theme
+package com.example.humblr.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

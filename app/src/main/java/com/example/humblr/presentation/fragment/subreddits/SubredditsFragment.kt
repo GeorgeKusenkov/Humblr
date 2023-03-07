@@ -34,7 +34,7 @@ import androidx.paging.compose.items
 import com.example.humblr.R
 import com.example.humblr.presentation.fragment.detailedpost.DetailedPostFragment
 import com.example.humblr.presentation.fragment.user.UserFragment
-import com.example.humblr.ui.compose.theming.CustomTheme
+import com.example.humblr.presentation.ui.compose.theming.CustomTheme
 import com.skydoves.landscapist.glide.GlideImage
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.Flow

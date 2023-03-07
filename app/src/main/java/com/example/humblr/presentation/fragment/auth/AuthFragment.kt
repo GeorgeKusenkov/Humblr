@@ -1,4 +1,4 @@
-package com.example.humblr.presentation.view.auth
+package com.example.humblr.presentation.fragment.auth
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.viewModels
+import com.example.humblr.presentation.fragment.onboarding.OnBoardingScreen
 import com.example.humblr.presentation.viewModel.AuthViewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 import dagger.hilt.android.AndroidEntryPoint

@@ -1,4 +1,4 @@
-package com.example.humblr.ui.compose.theming
+package com.example.humblr.presentation.ui.compose.theming
 
 import androidx.compose.foundation.shape.CutCornerShape
 import androidx.compose.foundation.shape.RoundedCornerShape

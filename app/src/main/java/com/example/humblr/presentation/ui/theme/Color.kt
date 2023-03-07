@@ -1,4 +1,4 @@
-package com.example.humblr.ui.theme
+package com.example.humblr.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

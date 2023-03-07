@@ -1,4 +1,4 @@
-package com.example.humblr.ui.compose.theming
+package com.example.humblr.presentation.ui.compose.theming
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

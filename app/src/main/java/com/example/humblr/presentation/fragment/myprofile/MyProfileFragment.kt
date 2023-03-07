@@ -32,7 +32,7 @@ import com.example.humblr.R
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.humblr.presentation.fragment.user.UserFragment
-import com.example.humblr.ui.compose.theming.CustomTheme
+import com.example.humblr.presentation.ui.compose.theming.CustomTheme
 import com.skydoves.landscapist.glide.GlideImage
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.StateFlow

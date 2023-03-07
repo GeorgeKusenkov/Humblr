@@ -1,4 +1,4 @@
-package com.example.humblr.presentation.view.auth
+package com.example.humblr.presentation.fragment.onboarding
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi

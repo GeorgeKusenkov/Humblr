@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.humblr.data.persistent_storage.PersistentStorage
 import com.example.humblr.data.repository.Repository
-import com.example.humblr.presentation.view.auth.AuthActivity
+import com.example.humblr.presentation.fragment.auth.AuthActivity
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.MutableStateFlow

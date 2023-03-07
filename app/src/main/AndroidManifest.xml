@@ -18,7 +18,7 @@
         android:theme="@style/Theme.Humblr"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.view.auth.AuthActivity"
+            android:name=".presentation.fragment.auth.AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

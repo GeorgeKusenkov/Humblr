@@ -1,4 +1,4 @@
-package com.example.humblr.presentation.view.auth
+package com.example.humblr.presentation.fragment.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

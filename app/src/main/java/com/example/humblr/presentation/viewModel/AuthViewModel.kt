@@ -8,7 +8,7 @@ import android.util.Log
 import androidx.core.net.toUri
 import androidx.lifecycle.ViewModel
 import com.example.humblr.MainActivity
-import com.example.humblr.presentation.view.auth.AuthActivity
+import com.example.humblr.presentation.fragment.auth.AuthActivity
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import net.openid.appauth.*
