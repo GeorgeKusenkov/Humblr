@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/subredditsFragment">
+
+    <fragment
+        android:id="@+id/subredditsFragment"
+        android:name="com.example.humblr.presentation.fragment.subreddits.SubredditsFragment"
+        android:label="fragment_subreddits"
+        tools:layout="@layout/fragment_subreddits" >
+        <action
+            android:id="@+id/action_subredditsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_subredditsFragment_to_detailedPostFragment"
+            app:destination="@id/detailedPostFragment" />
+        <action
+            android:id="@+id/action_subredditsFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.humblr.presentation.fragment.test.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.example.humblr.presentation.fragment.favorites.FavouritesFragment"
+        android:label="fragment_favourites"
+        tools:layout="@layout/fragment_favourites" >
+        <action
+            android:id="@+id/action_favouritesFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_favouritesFragment_to_detailedPostFragment"
+            app:destination="@id/detailedPostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.humblr.presentation.fragment.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.example.humblr.presentation.fragment.myprofile.MyProfileFragment"
+        android:label="fragment_my_profile"
+        tools:layout="@layout/fragment_my_profile" >
+        <action
+            android:id="@+id/action_myProfileFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailedPostFragment"
+        android:name="com.example.humblr.presentation.fragment.detailedpost.DetailedPostFragment"
+        android:label="fragment_detailed_post"
+        tools:layout="@layout/fragment_detailed_post" >
+        <action
+            android:id="@+id/action_detailedPostFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.humblr.presentation.fragment.user.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>

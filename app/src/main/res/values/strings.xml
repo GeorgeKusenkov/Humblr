@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Humblr</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in">log in</string>
+    <string name="follow_post_description">follow post</string>
+    <string name="action_confirmation">Action confirmation</string>
+    <string name="logout_confirmation">Logout confirmation</string>
+    <string name="logout">logout</string>
+    <string name="cancel">cancel</string>
+    <string name="user">user</string>
+    <string name="logout_icon_description">logout icon</string>
+    <string name="username">username</string>
+    <string name="friends">friends</string>
+    <string name="karma">karma</string>
+    <string name="isGold">gold</string>
+    <string name="clear_saved">clear saved</string>
+    <string name="comments_number">comments_number</string>
+    <string name="onboarding">onboarding</string>
+    <string name="onboarding1">scroll post</string>
+    <string name="onboarding2">look at comments</string>
+    <string name="onboarding3">make friends</string>
+    <string name="onboarding4">save posts</string>
+    <string name="skip">skip</string>
+</resources>
